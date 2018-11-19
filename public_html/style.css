@@ -1,0 +1,56 @@
+body{
+	animation: colorchange 10s infinite;
+	margin:0px;
+	background-color:#615F5F;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+@keyframes colorchange {
+	0%		{background:#615F5F;}
+	25%		{background:#3E6E78;}
+	50%		{background:#F69B41;}
+	75%		{background:#807294;}
+}
+
+#header{
+	padding-top:1px;
+	height:auto;
+	background:#2F2F2E;
+	width: auto;
+  margin: 0 auto 0 auto;
+  font-family: arial;
+  text-align: center;
+  vertical-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#title{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 50px;
+	color: white;
+}
+
+#sheader{
+	height:auto;
+	background:#AAA4A3;
+	width: auto;
+	margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: arial;
+  text-align: left;
+  font-size: 30px;;
+  font-weight: 800;
+  color:black;
+}
